@@ -12,7 +12,7 @@
       buildInputs = with pkgs; [
         #gcc_multi
         pkgsCross.mingw32.buildPackages.gcc
-        pkgsCross.gnumake
+        pkgs.gnumake
       ];
     };
   in {
