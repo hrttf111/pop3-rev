@@ -1,0 +1,10 @@
+headers
+ghidra
+*.h
+**.swp
+**.gzf
+**.tar.gz
+script/*.dat
+script/*.log
+script/*.hdr
+script/*.ver
