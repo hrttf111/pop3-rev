@@ -5,7 +5,7 @@ SCRIPT_PATH=$(CURRENT_DIR)/gscripts
 DEST_XML=backup.xml
 DEST_GZF=backup.gzf
 XML_BACKUP_PATH=$(CURRENT_DIR)/backup
-ARCHIVE_BACKUP_PATH=$(CURRENT_DIR)
+ARCHIVE_BACKUP_PATH=/opt/shared/ghidra
 
 BIN_PATH="/home/ddd/.wine/drive_c/GOG Games/Populous 3/D3DPopTB.exe"
 PROJECT_PATH_IMPORT=$(PROJECT_PATH)
@@ -25,7 +25,7 @@ export_gzf:
 		-postscript CustomGzfExporter.java $(ARCHIVE_BACKUP_PATH)/$(DEST_GZF)
 
 export_tgz:
-	tar -czf $(ARCHIVE_BACKUP_PATH)/backup_$(shell date +%m.%d.%y).tar.gz $(PROJECT_PATH)
+	tar -czf $(ARCHIVE_BACKUP_PATH)/pop3_backup_$(shell date +%m.%d.%y).tar.gz $(PROJECT_PATH)
 
 empty_project: ghidra
 	$(GHIDRA_PATH)/support/analyzeHeadless $(PROJECT_PATH_IMPORT) pop3 \
