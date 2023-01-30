@@ -18,3 +18,5 @@ struct PSFB_file {
     PSFB_header header // header of a variable size
     u8 sprite_data[] // actual sprite data
 }
+
+See "sprite_file_ext_load_file"(005275d0) for details
