@@ -1,0 +1,36 @@
+global_palettes_list
+
+0 - Fonts/Pal/Ptrs
+    data\point0-0.dat_sprite
+1 - Graphics
+    data/hspr0-0.dat_sprite
+2 - Editor
+3 - Objects
+    objects/objs0-0.dat_sprite
+4 - Old Objects
+5 - Textures
+    bl320
+6 - Ghost/Fade
+    fade0
+    ghost0
+    pal0
+7 - Sound
+8 - Music
+9 - Code
+10 - Data/BSS
+11 - ANI Files
+    vele
+12 - Sprites
+    data/hspr0-0.dat_sprite
+    data/hfx0-0.dat_sprite
+13 - Sky
+    sky0
+    *BGPIC_DUMMY_sprite
+14 - Shadows
+    SHADOW_DUMMY_sprite
+15 - WScreen
+    BScreen_sprite
+16 - BScreen
+    BScreen_sprite
+17 - Poly Pool
+    *PolyPool_sprite
