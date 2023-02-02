@@ -1,4 +1,4 @@
-GHIDRA_PATH=/nix/store/xylbb7bjdv8wjxshay32ya3izgj1rgid-ghidra-10.1.2/lib/ghidra
+GHIDRA_PATH=/nix/store/68g6ighr2pr0j85hdp1zlc2mdrxqj37w-ghidra-10.2.2/lib/ghidra/
 CURRENT_DIR=$(shell pwd)
 PROJECT_PATH=$(CURRENT_DIR)/ghidra
 SCRIPT_PATH=$(CURRENT_DIR)/gscripts
