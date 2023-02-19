@@ -1,0 +1,42 @@
+terrain related files
+    pal0-*.dat - palette, size 1024
+    disp0-*.dat - displacement for terrain, size 65536
+    bigf0-*.dat - colors for terrain, size 294912
+    cliff0-*.dat - ???
+    fade0-*.dat - ???
+    watdisp.dat - displacement for water ???, size 65536
+
+pls* - contain "planets" data, used in a "solar system" view between missions in a campaign
+    plspl0-*.dat - palette, size 1024
+    plsft0-*.dat - fade, size 16384
+    plscv0-*.dat - ???, size up to 0x6000
+    plstx0**.dat - ???, size up to 0x40000
+    plsdata.dat - ???, size 849
+    plssphr.dat - ???, size 28544
+    plsspace.spr - ???, size 38072
+    plsnoise.dat - ???, size 8192
+    plsbackg.dat - ???, size 307200
+
+sprite related files
+    hfx0-0.dat - sprite for UI + non-human sprite objects
+    HSPR0-0.DAT - human sprites
+    POINT0-0.DAT - cursor sprites
+
+UI related files
+    EDITOR.DAT - sprites for level editor (???)
+    EDIT0-0.DAT - sprites for level editor
+    fenew/fecursor.spr - sprites for animated cursor in main menu (with lightning)
+    fenew/felgsp**.spr - big "POPULOUS" sprite on a main screen + small "tm" sprite. Last two chars defines language
+
+animation related files:
+    VELE-0.ANI - ???, size 160760
+    VFRA-0.ANI - ???. size 31688
+    vspr-0.inf - ???, size 60
+    VSTART-0.ANI - ???, size 3168
+
+fonts
+    f0*t*-0.dat - fonts for different languages
+    FONT*-*.DAT - fonts for different languages
+
+sky
+    sky0-*.dat - ???, size 307200
