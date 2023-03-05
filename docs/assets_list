@@ -1,4 +1,4 @@
-global_palettes_list
+global_assets_list
 
 0 - Fonts/Pal/Ptrs
     data\point0-0.dat_sprite
@@ -7,6 +7,8 @@ global_palettes_list
 2 - Editor
 3 - Objects
     objects/objs0-0.dat_sprite
+    objects/facs0-0.dat_sprite
+    objects/pnts0-0.dat_sprite
 4 - Old Objects
 5 - Textures
     bl320
