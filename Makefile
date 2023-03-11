@@ -1,5 +1,4 @@
-GHIDRA_PATH?=/nix/store/68g6ighr2pr0j85hdp1zlc2mdrxqj37w-ghidra-10.2.2/lib/ghidra/
-GHIDRA_HEADLESS=$(GHIDRA_PATH)/support/analyzeHeadless
+GHIDRA_HEADLESS?=$(shell bash ./scripts/find_headless.sh)
 CURRENT_DIR=$(shell pwd)
 SCRIPT_PATH=$(CURRENT_DIR)/gscripts
 XML_BACKUP_PATH=$(CURRENT_DIR)/backup
@@ -18,7 +17,7 @@ all: export_xml
 check_hash:
 	$(shell echo $(BIN_HASH) | sha256sum -c -)
 
-export_xml:
+export_xml: $(GHIDRA_HEADLESS)
 	$(GHIDRA_HEADLESS) $(PROJECT_PATH) $(PROJECT_NAME) \
 		-process -readOnly -noanalysis \
 		-scriptPath $(SCRIPT_PATH) \
