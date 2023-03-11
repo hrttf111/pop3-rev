@@ -1,6 +1,6 @@
 # POP3 rev
 
-This project is an attempt of reverse engineering of Populous: The Beggning (Pop3).
+This project is an attempt of reverse engineering of Populous: The Beginning (Pop3).
 The main goal is to understand game resources and rendering. The main reverse engineering tool is Ghidra.
 
 ## Ghidra
