@@ -1,0 +1,26 @@
+unit_type (sprite num) - description
+
+1 (0x86) - hut small, (0x86 + people inside)
+2 (0x8a) - hut medium, (0x8a + people inside)
+3 (0x8f) - hut big, (0x8f + people inside)
+4 (0x78) - tribe unit
+    2 (0xa3) - watch tower
+    3 (0x74) - warrior hut
+    4 (0x76) - fire hut
+    5 (0x77) - prist hut
+    6 (0x75) - spy hut
+    7 (0x85) - ???
+5 (0xa6) - prist sign
+6 (0xa7) - spy sign
+7 (0xa4) - warrior sign
+8 (0xa5) - fire sign
+9 (-) - shrines
+    shrine types
+    1, 5 (0x7b) - head
+    2 (0x7c) - obelisk
+    4 (0x7a) - totem
+0xd (0xa8) - boat sign
+0xf (0xa9) - fly sign
+0x11 (0x43b) - guard
+0x12 (0x79) - vault
+0x13 (0x95) - prison
