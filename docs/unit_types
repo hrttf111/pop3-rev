@@ -24,3 +24,65 @@ unit_type (sprite num) - description
 0x11 (0x43b) - guard
 0x12 (0x79) - vault
 0x13 (0x95) - prison
+
+unit_class|unit_type|description
+--------------------------------
+1|*|person
+1|1|wild
+1|2|brave
+1|3|warrior
+1|4|prist
+1|5|spy
+1|6|fire
+1|7|medicine
+1|8|AoD
+--------------------------------
+2|*|building
+2|1|hut small
+2|2|hut medium
+2|3|hut big
+2|4|tower
+2|5|temple
+2|6|spy
+2|7|warrior
+2|8|fire
+2|9|reconversion
+2|10|wall
+2|11|gate
+2|12|ignore
+2|13|boat 1
+2|14|boat 2
+2|15|air 1
+2|16|air 2
+2|17|guard
+2|18|library
+2|19|prison
+--------------------------------
+3|*|creature
+--------------------------------
+4|*|vehicle
+4|1|boat 1
+4|2|boat 2
+4|3|air 1
+4|4|air 2
+--------------------------------
+5|*|scenery
+--------------------------------
+6|*|general
+6|1|light
+6|2|discovery
+6|3|debug static
+6|4|debug flying
+6|5|debug flag
+6|6|trigger
+6|7|discovery marker
+--------------------------------
+7|*|effect
+--------------------------------
+8|*|shot
+--------------------------------
+9|*|shape
+--------------------------------
+10|*|internal
+--------------------------------
+11|*|spell
