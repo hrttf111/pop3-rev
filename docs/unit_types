@@ -59,6 +59,12 @@ unit_class|unit_type|description
 2|19|prison
 --------------------------------
 3|*|creature
+3|1|bear
+3|2|buffalo
+3|3|eagle
+3|4|rabbit
+3|5|beaver
+3|6|fish
 --------------------------------
 4|*|vehicle
 4|1|boat 1
@@ -67,6 +73,24 @@ unit_class|unit_type|description
 4|4|air 2
 --------------------------------
 5|*|scenery
+5|1|mass tree
+5|2|special tree 1
+5|3|special tree 2
+5|4|mass fruit tree
+5|5|special fruit tree 1
+5|6|special fruit tree 2
+5|7|plant 1
+5|8|plant 2
+5|9|head
+5|0xa|fire
+5|0xb|wood pile
+5|0xc|reincarnation pillar
+5|0xd|rock
+5|0xe|portal
+5|0xf|island
+5|0x10|bridge
+5|0x12|top level scenery
+5|0x13|sub level scenery
 --------------------------------
 6|*|general
 6|1|light
@@ -75,14 +99,148 @@ unit_class|unit_type|description
 6|4|debug flying
 6|5|debug flag
 6|6|trigger
-6|7|discovery marker
+6|0xa|discovery marker
 --------------------------------
 7|*|effect
+7|1|simple blast
+7|2|sprite circles
+7|3|smoke
+7|4|lightning elem
+7|5|burn cell obstacle
+7|6|flatten land
+7|7|move rs pillar
+7|8|prepare rs land
+7|9|sphere explode 1
+7|0xa|fireball
+7|0xb|firecloud
+7|0xc|ghost army
+7|0xd|invisibility
+7|0xe|explode bldg partial
+7|0xf|volcano
+7|0x10|hypnotism
+7|0x11|lightning bolt
+7|0x12|swamp
+7|0x13|AoD
+7|0x14|whirlwind
+7|0x15|insect plague
+7|0x16|firestorm
+7|0x17|erosion
+7|0x18|land bridge
+7|0x19|wrath of god
+7|0x1a|earthquake
+7|0x1b|fly thingummy
+7|0x1c|sphere explode and fire
+7|0x1d|big fire
+7|0x1e|lightning
+7|0x1f|flatten
+7|0x20|general
+7|0x21|shape sparkle
+7|0x22|lava flow
+7|0x23|volcano explosions
+7|0x24|purify land
+7|0x25|unpurify land
+7|0x26|explosion 1
+7|0x27|explosion 2
+7|0x28|lava square
+7|0x29|whirlwind element
+7|0x2a|lightning strand
+7|0x2b|whirlwind dust
+7|0x2c|raise land
+7|0x2d|lower land
+7|0x2e|hill
+7|0x2f|valley
+7|0x30|place tree
+7|0x31|rise
+7|0x32|dip
+7|0x33|rein rock debris
+7|0x34|clear mapwho
+7|0x35|place shaman
+7|0x36|place wild man
+7|0x37|building smoke
+7|0x38|much simpler blast
+7|0x39|tumbling branch
+7|0x3a|conversion flash
+7|0x3b|hypnosis flash
+7|0x3c|sparkle
+7|0x3d|small sparkle
+7|0x3e|explosion 3
+7|0x3f|rock explosion
+7|0x40|lava gloop
+7|0x41|splash
+7|0x42|smoke cloud
+7|0x43|smoke cloud constant
+7|0x44|fireball 2
+7|0x45|ground shockwave
+7|0x46|orbiter
+7|0x47|big sparkle
+7|0x48|meteor
+7|0x49|convert wild
+7|0x4a|bldg smoke full
+7|0x4b|bldg smoke part
+7|0x4c|bldg damaged smoke
+7|0x4d|delete rs pillars
+7|0x4e|spell blast
+7|0x4f|firestorm smoke
+7|0x50|player dead
+7|0x51|reveal fog area
+7|0x52|shield
+7|0x53|boat hut repair
+7|0x54|swamp reeds
+7|0x55|swamp mist
+7|0x57|bloodlust
+7|0x58|teleport
+7|0x59|atlantis set
+7|0x5a|atlantis invoke
+7|0x5b|statue to AoD
+7|0x5c|fill spell one shots
+7|0x5d|fire roll elem
 --------------------------------
 8|*|shot
+8|1|standard shot
+8|2|standard shot 2
+8|4|fireball shot
+8|7|volcano small fireball short
+8|8|volcano big fireball short
 --------------------------------
 9|*|shape
+-empty
 --------------------------------
 10|*|internal
+10|1|formation
+10|2|beacon
+10|3|TID
+10|4|soul convert
+10|5|MM attract
+10|6|formation
+10|7|obj face
+10|8|fight
+10|9|pre fight
+10|0xa|guard control
+10|0xc|soul convert 2
+10|0xd|DT beacon
+10|0x10|guard post display
+10|0x12|wood distrib
+10|0x13|sinking bldg
 --------------------------------
 11|*|spell
+11|1|burn spell
+11|2|blast spell
+11|3|lightning bolt
+11|4|whirlwind
+11|5|insect plague
+11|6|invisibility
+11|7|hypnotism
+11|8|firestorm
+11|9|ghost army
+11|0xa|erosion
+11|0xb|swamp
+11|0xc|land bridge
+11|0xd|AoD
+11|0xe|earthquake
+11|0xf|flatten land
+11|0x10|volcano
+11|0x11|convert wild
+11|0x12|armageddon
+11|0x13|shield
+11|0x14|blood lust
+11|0x15|teleport

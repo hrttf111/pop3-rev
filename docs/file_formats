@@ -20,3 +20,28 @@ struct PSFB_file {
 }
 
 See "sprite_file_ext_load_file"(005275d0) for details
+
+-------------------------------------------------------------------------------
+Level format
+0-0x7FFF (0x8000)- height array
+0x4000 - unknown
+0x4000 - unknown
+0x4000 - landscape flags
+0x40 - tribe related
+0x3 - sunlight
+100 unit chunks
+    0x157c (5500)
+0x96 - unknown
+
+unit format (size 55B)
+struct UnitFormat {
+    u8 unit_type;
+    u8 unit_class;
+    u8 tribe_index;
+    u16 location_x;
+    u16 location_y;
+    u32 f1;
+    u16 f2;
+    u16 f3;
+    u8 fd[40];
+}
