@@ -1,0 +1,22 @@
+ 0 - part of 3d model or landscape
+ 1 - sprite
+ 4 - ignore
+ 5 - spirte (hfx + 0x58)
+ 6 - part of 3d model
+ 11/0xB - part of 3d model
+ 13/0x0D - human polygons
+ 14/0x0E - simple polygon
+ 15/0x0F - sprite (hfx + 0x16 index)
+ 16/0x10 - sprite (hfx + 0x47 index)
+ 17/0x11 - insect ???
+ 18/0x12 - sprite (al palette)
+ 19/0x13 - polygon with randomization
+ 21/0x15 - ???
+ 23/0x17 - ???
+ 24/0x18 - sprite (al palette)
+ 25/0x19 - sprite (hfx + 0x46 index)
+ 26/0x1A - sprite
+ 27/0x1B - part of 3d model
+ 28/0x1C - part of 3d model
+ 30/0x1E - sprite (hfx + 0x626 index)
+ 31/0x1F - sprite (hfx + 0x219 index)
